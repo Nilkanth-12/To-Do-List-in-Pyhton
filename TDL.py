@@ -28,7 +28,7 @@ def code():
         elif y == 3:
             c = int(input("Enter the index number to delete task: "))
             if 0 <= c < len(x): 
-                x.pop(c-1) 
+                x.pop((c-1)) 
             else:
                 print("Invalid index")
 
